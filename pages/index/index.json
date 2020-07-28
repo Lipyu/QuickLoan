@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "CheckButton":"../../components/CheckButton/CheckButton"
+  },
+  "navigationBarTitleText": "公积金快贷"
+}

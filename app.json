@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/checkByself/checkByself",
+    "pages/checkAuto/checkAuto",
+    "pages/intro/intro",
+    "pages/recom/recom",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#008bff",
+    "navigationBarTitleText": "公积金快贷",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color":"#999",
+    "selectedColor":"#ff2d4a",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home-o.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "icons/my.png",
+      "selectedIconPath": "icons/my-o.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

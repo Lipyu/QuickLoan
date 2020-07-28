@@ -1,0 +1,16 @@
+.check_button {
+  height: 180rpx;
+  padding: 30rpx;
+  /* background-color: var(--themeColor); */
+  /* background-color: #88e;*/
+  background-color: #fff;
+}
+.check_button navigator {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008bff;
+  border-radius: 50rpx;
+  color: #fff;
+}

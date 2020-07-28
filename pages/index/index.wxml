@@ -1,0 +1,34 @@
+<swiper autoplay interval="2000" circular indicator-dots> 
+    <swiper-item><image  mode="widthFix" src="https://s1.ax1x.com/2020/07/27/aiAFJK.jpg"/> </swiper-item>
+    <swiper-item><image  mode="widthFix" src="https://s1.ax1x.com/2020/07/27/aiAeLd.jpg"/> </swiper-item>
+    <swiper-item><image  mode="widthFix" src="https://s1.ax1x.com/2020/07/27/aiA1W8.png"/> </swiper-item>
+</swiper>
+
+
+<view>
+<!--  测试按钮  开始 -->
+<CheckButton ></CheckButton>
+<!--  测试按钮  结束 -->
+<!--  导航 开始 -->
+
+<view class="index_cate">
+    <navigator url="/pages/intro/intro" open-type="navigate">
+        <image src="https://s1.ax1x.com/2020/07/27/aic0qf.png" mode="widthFix"></image>
+        <text decode>&nbsp;&nbsp;简介</text>
+    </navigator>
+    <navigator url="/pages/recom/recom" open-type="navigate">
+        <image src="https://s1.ax1x.com/2020/07/27/aicWMq.png" mode="widthFix"></image>
+        <text decode>&nbsp;&nbsp;推荐</text>
+    </navigator>
+    <navigator url="/pages/intro/intro" open-type="navigate">
+        <image src="https://s1.ax1x.com/2020/07/27/aicbW9.png" mode="widthFix"></image>
+        <text decode>&nbsp;&nbsp;注意</text>
+    </navigator>
+    <navigator url="/pages/intro/intro" open-type="navigate">
+        <image src="https://s1.ax1x.com/2020/07/27/aig9Fe.png" mode="widthFix"></image>
+        <text decode>&nbsp;&nbsp;关于</text>
+    </navigator>
+</view>
+
+<!--  导航 结束 -->
+</view>

@@ -1,0 +1,5 @@
+<view class="check_button">
+  <navigator url="/pages/checkByself/checkByself" open-type="navigate">
+    信用自测
+  </navigator>
+</view>
